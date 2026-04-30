@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">HermesThreads logo</title>
+  <desc id="desc">Abstract threaded speech-bubble H mark for a Threads research tool.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0c1730"/>
+      <stop offset="1" stop-color="#15113a"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0.15" x2="0.9" y1="0.2" y2="0.9">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.48" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.75 0 0 0 0 1 0 0 0 0.55 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <circle cx="780" cy="230" r="140" fill="#38bdf8" opacity="0.08"/>
+  <circle cx="215" cy="820" r="210" fill="#a78bfa" opacity="0.09"/>
+  <path d="M277 334 C277 239 356 177 472 177 H565 C704 177 803 264 803 389 C803 514 704 600 565 600 H503 L310 763 C292 778 265 764 267 741 L286 588 C222 545 187 479 187 407 C187 380 194 355 207 333" fill="none" stroke="url(#line)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M360 342 V613 M360 480 H655 M655 342 V613" fill="none" stroke="#eef7ff" stroke-width="58" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M360 342 V613 M360 480 H655 M655 342 V613" fill="none" stroke="url(#line)" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="342" r="21" fill="#5eead4"/>
+  <circle cx="655" cy="613" r="21" fill="#a78bfa"/>
+</svg>
